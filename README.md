@@ -46,7 +46,7 @@ This code can be run on Windows, macOS, and Linux platforms that support Python.
 Example
 Here's an example of how to use the script:
 
-Enter the search query: "Python programming tutorials"
+Enter the search query: "juice wrld"
 The script will display a list of search results with indexes.
 Enter the index of the video you want to download (e.g., 0 for the first result).
 Choose to download as video (v) or audio (a).
