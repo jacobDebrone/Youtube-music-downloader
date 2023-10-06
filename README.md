@@ -5,13 +5,13 @@ This Python script allows you to search for YouTube videos and download them as 
 Prerequisites
 Before running this code, you need to set up some prerequisites:
 
-Python: Make sure you have Python 3.x installed on your computer.
+Python: Make sure you have Python 3 installed on your computer.
 
 API Key: You need a YouTube Data API key. Replace the placeholder 'your_api_key' in the code with your actual API key. You can obtain a key by following Google's instructions here.
 
 Required Libraries: Install the required Python libraries using pip:
 
-Copy code
+code
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib yt-dlp
 How to Run
 1. Clone the Repository
@@ -21,13 +21,13 @@ bash
 Copy code
 git clone https://github.com/yourusername/youtube-downloader.git
 2. Navigate to the Directory
-Go to the project directory:
+   Go to the project directory:
 
-bash
-Copy code
-cd youtube-downloader
+
+ Copy code
+ cd youtube-downloader
 3. Set Up Your API Key
-Replace the API key in the code as mentioned in the prerequisites section.
+  the API key in the code as mentioned in the prerequisites section.
 
 4. Run the Script
 Run the Python script by executing the following command:
