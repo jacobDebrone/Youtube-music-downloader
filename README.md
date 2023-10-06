@@ -1,4 +1,4 @@
-README for YouTube Video Downloader
+
 Description
 This Python script allows you to search for YouTube videos and download them as either video or audio files. It uses the YouTube Data API and the yt-dlp library.
 
