@@ -1,60 +1,101 @@
+YouTube Media Downloader with Lyrics (Python)
 
-Description
-This Python script allows you to search for YouTube videos and download them as either video or audio files. It uses the YouTube Data API and the yt-dlp library.
+YouTube Media Downloader
+Table of Contents
+
+    Introduction
+    Features
+    Prerequisites
+    Installation
+    Usage
+    Configuration
+    Contributing
+    License
+
+Introduction
+
+The music/music video downloader is a Python program that allows you to search for YouTube videos, download them as video or audio files, and even download lyrics for your favorite songs. It provides an interactive command-line interface for a seamless user experience.
+
+This project is built using various Python libraries, including yt-dlp for downloading YouTube media, the Google API for searching YouTube videos, and lyricsgenius for retrieving song lyrics from Genius.
+Features
+
+    Search and download YouTube videos in video or audio format.
+    Download lyrics for your favorite songs.
+    User-friendly command-line interface with clear instructions.
+    Error handling for a smooth user experience.
+    Modular and well-structured code for easy maintenance and customization.
 
 Prerequisites
-Before running this code, you need to set up some prerequisites:
 
-Python: Make sure you have Python 3 installed on your computer.
+Before using this program, ensure you have the following prerequisites installed:
 
-API Key: You need a YouTube Data API key. Replace the placeholder 'your_api_key' in the code with your actual API key. You can obtain a key by following Google's instructions here.
+    Python 3.x: You can download it from the official website.
 
-Required Libraries: Install the required Python libraries using pip:
+Installation
 
-code
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib yt-dlp
-How to Run
-1. Clone the Repository
-Clone this GitHub repository to your local machine:
+    Clone the repository to your local machine:
+
+    bash
+
+
+
+
+
+Navigate to the project directory:
 
 bash
-Copy code
-git clone https://github.com/yourusername/youtube-downloader.git
-2. Navigate to the Directory
-   Go to the project directory:
 
+cd your-repo-name
 
- Copy code
- cd youtube-downloader
-3. Set Up Your API Key
-  the API key in the code as mentioned in the prerequisites section.
+Install the required Python packages:
 
-4. Run the Script
-Run the Python script by executing the following command:
+bash
 
-Copy code
-python youtube_downloader.py
-5. Usage
-Enter a search query when prompted.
-The script will display search results with titles and indexes.
-Enter the index of the video you want to download.
-Choose to download as video (v) or audio (a).
-The selected video or audio will be downloaded to your current directory.
-Supported Platforms
-This code can be run on Windows, macOS, and Linux platforms that support Python.
+    pip install -r requirements.txt
 
-Example
-Here's an example of how to use the script:
+Usage
 
-Enter the search query: "juice wrld"
-The script will display a list of search results with indexes.
-Enter the index of the video you want to download (e.g., 0 for the first result).
-Choose to download as video (v) or audio (a).
-The selected video or audio will be downloaded to your current directory.
-Disclaimer
-Please ensure that you comply with YouTube's terms of service and any applicable copyright laws when downloading videos.
+    Run the program:
 
-Enjoy your video downloading experience! If you have any questions or face issues, feel free to ask. 😊📺🎶
+    bash
 
+    python main.py
 
+    You will be presented with the following options:
+        Download (v)ideo
+        Download (a)udio
+        Download (l)yrics
+        (exit) to quit
 
+    Choose the option corresponding to what you want to download:
+        For video or audio, you'll be prompted to enter a search query and then choose a video to download.
+        For lyrics, you'll be prompted to enter the song title and artist name.
+
+    Follow the on-screen instructions to complete the download.
+
+Configuration
+
+Before using the program, you need to configure your API keys for YouTube Data and Lyrics Genius. Follow these steps:
+
+    Get a YouTube Data API Key:
+        Visit the Google Developers Console.
+        Create a new project or select an existing one.
+        Enable the YouTube Data API v3 for your project.
+        Create an API key.
+        Replace YOUR_YOUTUBE_API_KEY in main.py with your API key.
+
+    Get a Lyrics Genius API Token:
+        Visit the Genius API page.
+        Sign in or create an account.
+        Create a new API client.
+        Copy the access token.
+        Replace YOUR_GENIUS_API_TOKEN in main.py with your access token.
+
+Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Make your changes.
+    Submit a pull request to the main branch of the original repository.
