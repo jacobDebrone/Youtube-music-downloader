@@ -1,17 +1,9 @@
-YouTube Media Downloader with Lyrics (Python)
+music/music-video downloader with Lyrics (Python)
 
 YouTube Media Downloader
 Table of Contents
 
-    Introduction
-    Features
-    Prerequisites
-    Installation
-    Usage
-    Configuration
-    Contributing
-    License
-
+  
 Introduction
 
 The music/music video downloader is a Python program that allows you to search for YouTube videos, download them as video or audio files, and even download lyrics for your favorite songs. It provides an interactive command-line interface for a seamless user experience.
@@ -35,7 +27,7 @@ Installation
 
     Clone the repository to your local machine:
 
-    bash
+    bash https://github.com/jacobDebrone/music-musicvideo-download
 
 
 
