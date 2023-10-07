@@ -1,7 +1,5 @@
-music/music-video downloader with Lyrics (Python)
+MUSIC/MUSIC-VIDEO DOWNLOADER WITH Lyrics (Python)
 
-YouTube Media Downloader
-Table of Contents
 
   
 Introduction
