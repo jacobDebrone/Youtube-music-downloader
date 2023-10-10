@@ -1,0 +1,4 @@
+yt-dlp
+google-api-python-client
+tqdm
+lyricsgenius
