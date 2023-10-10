@@ -80,8 +80,11 @@ Before using the program, you need to configure your API keys for YouTube Data a
         Create a new API client.
         Copy the access token.
         Replace YOUR_GENIUS_API_TOKEN in main.py with your access token.
+you can also turn the python file in to an .exe by using pyinstaller
+first install pyinstaller by running pip install pyinstaller
+then go to the directory having the python file then open command prompt
+then run  pyinstaller --onefile downloader.py
 
-Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
