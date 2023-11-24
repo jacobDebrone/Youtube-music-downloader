@@ -25,7 +25,7 @@ Installation
 
     Clone the repository to your local machine:
 
-    bash https://github.com/jacobDebrone/music-musicvideo-download
+    git clone https://github.com/jacobDebrone/music-musicvideo-download
 
 
 
